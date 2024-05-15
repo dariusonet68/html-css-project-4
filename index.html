@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-dark">
+  <body class="bg-black">
     <nav class="navbar bg-dark">
       <div class="container-fluid justify-content-around">
         <a class="navbar-brand mt-3">
@@ -91,7 +91,7 @@
 
     <!-- Cards -->
 
-    <div class="px-4 py-5 my-5 text-center bg-dark">
+    <div class="p-5 m-5 text-center bg-black">
       <p class="text-light lead mb-4">Welcome back, Darius!</p>
       <h1 class="text-light display-5 fw-bold">
         Unlimited movies, TV shows, and more
@@ -108,7 +108,9 @@
 
     <main>
       <div class="cards-container">
-        <section class="d-flex row align-items-md-stretch border border-5 p-5">
+        <section
+          class="d-flex flex-nowrap row align-items-md-stretch border border-5 p-5"
+        >
           <div class="col-md-6">
             <div class="h-100 p-5 rounded-3 text-light">
               <h2>Enjoy on your TV</h2>
@@ -116,13 +118,10 @@
                 Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
                 Blu-ray players, and more.
               </p>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
             </div>
           </div>
 
-          <div class="w-100">
+          <div class="">
             <img
               alt=""
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
@@ -133,21 +132,9 @@
         </section>
 
         <section
-          class="row align-items-md-stretch flex-row-reverse border border-5 p-5"
+          class="d-flex flex-nowrap row align-items-md-stretch border border-5 p-5"
         >
-          <div class="col-md-6">
-            <div class="h-100 p-5 rounded-3 text-light">
-              <h2>Download your shows to watch offline</h2>
-              <p>
-                Save your favorites easily and always have something to watch.
-              </p>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
-            </div>
-          </div>
-
-          <div class="" style="width: 200px">
+          <div class="" style="width: 600px">
             <img
               alt=""
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
@@ -155,9 +142,20 @@
               class="default-ltr-cache-1d3w5wq"
             />
           </div>
+
+          <div class="col-md-6">
+            <div class="h-100 p-5 rounded-3 text-light">
+              <h2>Download your shows to watch offline</h2>
+              <p>
+                Save your favorites easily and always have something to watch.
+              </p>
+            </div>
+          </div>
         </section>
 
-        <section class="row align-items-md-stretch border border-5 p-5">
+        <section
+          class="d-flex flex-nowrap row align-items-md-stretch border border-5 p-5"
+        >
           <div class="col-md-6">
             <div class="h-100 p-5 rounded-3 text-light">
               <h2>Watch everywhere</h2>
@@ -165,9 +163,6 @@
                 Stream unlimited movies and TV shows on your phone, tablet,
                 laptop, and TV.
               </p>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
             </div>
           </div>
 
@@ -182,22 +177,19 @@
         </section>
 
         <section
-          class="row align-items-md-stretch flex-row-reverse border border-5 p-5"
+          class="d-flex flex-nowrap row align-items-md-stretch flex-row-reverse border border-5 p-5"
         >
           <div class="col-md-6">
-            <div class="h-100 p-5 rounded-3 text-light">
+            <div class="h-100 p-5 rounded-3 text-light align-self-center">
               <h2>Create profiles for kids</h2>
               <p>
                 Send kids on adventures with their favorite characters in a
                 space made just for them—free with your membership.
               </p>
-              <button class="btn btn-outline-light" type="button">
-                Example button
-              </button>
             </div>
           </div>
 
-          <div style="width: 450px">
+          <div style="width: 600px">
             <img
               alt=""
               src="https://occ-0-8108-3466.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
@@ -210,7 +202,7 @@
     </main>
 
     <!-- Accordion -->
-    <div class="text-light">
+    <div class="d-flex justify-content-center text-light p-5">
       <h1>Frequently Asked Questions</h1>
     </div>
 
@@ -225,7 +217,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseOne"
           >
-            Accordion Item #1
+            What is Netflix?
           </button>
         </h2>
         <div
@@ -250,7 +242,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseTwo"
           >
-            Accordion Item #2
+            How much does Netflix cost?
           </button>
         </h2>
         <div
@@ -276,7 +268,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseThree"
           >
-            Accordion Item #3
+            Where can I watch?
           </button>
         </h2>
         <div
@@ -304,7 +296,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseFour"
           >
-            Accordion Item #4
+            How do I cancel?
           </button>
         </h2>
         <div
@@ -329,7 +321,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseFive"
           >
-            Accordion Item #5
+            What can I watch on Netflix?
           </button>
         </h2>
         <div
@@ -355,7 +347,7 @@
             aria-expanded="false"
             aria-controls="flush-collapseSix"
           >
-            Accordion Item #6
+            Is Netflix good for kids?
           </button>
         </h2>
         <div
@@ -389,30 +381,26 @@
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a href="#" class="nav-link p-0 text-light"
                   >Questions? Contact us.</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">FAQ</a>
+                <a href="#" class="nav-link p-0 text-light">FAQ</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a href="#" class="nav-link p-0 text-light"
                   >Investor Relations</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Privacy</a>
+                <a href="#" class="nav-link p-0 text-light">Privacy</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Speed Test</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Speed Test</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Ad Choices</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Ad Choices</a>
               </li>
             </ul>
           </div>
@@ -420,22 +408,18 @@
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Help Center</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Help Center</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Jobs</a>
+                <a href="#" class="nav-link p-0 text-light">Jobs</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a href="#" class="nav-link p-0 text-light"
                   >Cookie Preferences
                 </a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Legal Guarantee</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Legal Guarantee</a>
               </li>
             </ul>
           </div>
@@ -443,22 +427,18 @@
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Account</a>
+                <a href="#" class="nav-link p-0 text-light">Account</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Ways to Watch</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Ways to Watch</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a href="#" class="nav-link p-0 text-light"
                   >Corporate Information</a
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Legal Notices</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Legal Notices</a>
               </li>
             </ul>
           </div>
@@ -466,24 +446,16 @@
           <div class="col-6 col-md-2 mb-3">
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Media Center</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Media Center</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Terms of Use</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Terms of Use</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Contact Us</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Contact Us</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Only on Netflix</a
-                >
+                <a href="#" class="nav-link p-0 text-light">Only on Netflix</a>
               </li>
             </ul>
           </div>
